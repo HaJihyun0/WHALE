@@ -1,15 +1,10 @@
 import streamlit as st
-from PIL import Image
 
 # 제목 및 설명
 st.set_page_config(page_title="🐋 MBTI 진로 추천기", page_icon="🐋")
 st.title("🐳 MBTI 진로 추천 웹앱")
 st.write("당신의 **MBTI 유형**에 따라 어울리는 **직업**을 추천해줄게요!")
 st.write("고래 친구들이 함께 도와줄 거예요 🐋💙")
-
-# 귀여운 고래 이미지 표시
-whale_img = Image.open("whale_1.png")  # whale_1.png 파일이 있는지 확인!
-st.image(whale_img, caption="나는 진로 고래야! 🐳", use_column_width=True)
 
 # MBTI 선택
 mbti_types = [
