@@ -33,9 +33,6 @@ if mbti in career_recommendations:
 else:
     st.write("직업 추천 준비 중이에요. 곧 추가될 거예요! 🛠️")
 
-# 추가 고래 이미지
-whale_img2 = Image.open("whale_2.png")  # 귀여운 고래 이미지 더 추가
-st.image(whale_img2, caption="너에게 꼭 맞는 길을 찾길 바래! 🌈", use_column_width=True)
 
 # 푸터
 st.markdown("---")
