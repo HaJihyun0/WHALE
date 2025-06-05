@@ -49,3 +49,8 @@ if selected_companies:
     st.plotly_chart(fig, use_container_width=True)
 else:
     st.warning("하나 이상의 기업을 선택하세요.")
+
+streamlit
+yfinance
+pandas
+plotly
