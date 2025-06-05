@@ -10,7 +10,6 @@ from datetime import datetime, timedelta
 
 st.set_page_config(page_title="글로벌 시가총액 TOP10 주가 변화", layout="wide")
 
-# 시가총액 기준 글로벌 TOP10 기업 (2025년 기준 추정)
 top10_tickers = {
     "Apple": "AAPL",
     "Microsoft": "MSFT",
@@ -24,7 +23,6 @@ top10_tickers = {
     "Eli Lilly": "LLY"
 }
 
-# 날짜 범위 설정
 end_date = datetime.today()
 start_date = end_date - timedelta(days=365)
 
